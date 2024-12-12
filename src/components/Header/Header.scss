@@ -1,0 +1,27 @@
+header{
+    
+    nav{
+        border-radius: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        ul{
+
+            li{
+
+                a{
+                    font-size: 1.1rem !important;   
+                    color: #000 !important;
+                    padding: 0.5rem 1rem !important;
+                }
+
+                &:first-child{
+
+                    a{
+                        color: var(--accent-color) !important;   
+                        font-weight: 600 !important;                     
+                    }
+                }
+            }
+        }
+    }
+}

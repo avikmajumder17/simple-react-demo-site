@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-nunito);
+}
+
+:root{
+  --accent-color: #0d83fd;
+  --font-family-nunito: "Nunito", sans-serif;
+  --light-blue-background-color: #ECF5FF;
+  --background-color: #ffffff;
+  --default-color: #212529;
+  --heading-color: #2d465e;
+  --accent-color: #0d83fd;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+.light-background {
+--background-color: #f3f9ff;
+--surface-color: #ffffff;
+}
+
+.dark-background {
+--background-color: #0d83fd;
+--default-color: #ffffff;
+--heading-color: #ffffff;
+--surface-color: #409dfd;
+--contrast-color: #ffffff;
+}
+
+.btn-main{
+  border-radius: 50px !important;
+  background: var(--accent-color) !important;
+  padding: 0.8rem 2rem !important;
+  color: #fff !important;
+}
+
+section, .section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
